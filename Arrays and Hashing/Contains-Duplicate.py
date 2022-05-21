@@ -8,3 +8,13 @@ class Solution:
             if nums[i] == nums[i+1]:
                 return True
         return False
+    
+    
+    # Another Method  -- Apply hashtable O(n)
+    # hashNum = {}
+    # for i in nums:
+    #     if i not in hashNum:
+    #         hashNum[i] = 1
+    #     else:
+    #         return True
+    # return False
